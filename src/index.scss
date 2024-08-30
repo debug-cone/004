@@ -1,0 +1,116 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: dodgerblue;
+
+  &_wrap {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  &_list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+    &_item {
+      font-size: larger;
+      color: whitesmoke;
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &_btn {
+      padding: 12px 24px;
+      border: none;
+      background-color: 
+      #61dafb;
+      border-radius: 15px;
+      color: white;
+      font-size: medium;
+    }
+  }
+}
+
+.card {
+  width: 600px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: dodgerblue;
+
+  &_title {
+    color: white;
+  }
+
+  &_img {
+    width: 250px;
+  }
+
+  &_price {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+    color: white;
+
+    &_btn {
+      padding: 12px 24px;
+      border: none;
+      background-color: 
+      #61dafb;
+      border-radius: 15px;
+      color: white;
+      font-size: medium;
+    }
+  }
+
+  &_counter {
+    display: flex;
+    gap: 40px;
+
+    &_btn {
+      padding: 12px 24px;
+      border: none;
+      background-color: 
+      #61dafb;
+      border-radius: 15px;
+      color: white;
+      font-size: medium;
+    }
+
+    &_num {
+      color: white;
+    }
+  }
+}
